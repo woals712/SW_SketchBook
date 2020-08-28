@@ -1,0 +1,170 @@
+pre
+  margin 1.2em 0
+  position relative
+
+pre > code
+  background #f8f8f8
+  color #525252
+  font-size .85em
+  line-height 1.5
+  display block
+  overflow-x auto
+  padding 1em
+
+  &:after
+    color #7f8c8d
+    font-size .75em
+    font-style italic
+    font-weight 600
+    padding .2em .6em 0
+    opacity .25
+    transition opacity .4s ease
+    position absolute
+    top 0
+    right 0
+
+  &.lang-html:after
+    content 'HTML'
+
+  &.lang-css:after
+    content 'CSS'
+
+  &.lang-less:after
+    content 'Less'
+
+  &.lang-sass:after
+    content 'Sass'
+
+  &.lang-scss:after
+    content 'Scss'
+
+  &.lang-stylus:after
+  &.lang-styl:after
+    content 'Stylus'
+
+  &.lang-javascript:after
+  &.lang-js:after
+    content 'JavaScript'
+
+  &.lang-typescript:after
+  &.lang-ts:after
+    content 'TypeScript'
+
+  &.lang-php:after
+    content 'PHP'
+
+  &.lang-python:after
+  &.lang-py:after
+    content 'Python'
+
+  &.lang-ruby:after
+    content 'Ruby'
+
+  &.lang-java:after
+    content 'Java'
+
+  &.lang-go:after
+    content 'Go'
+
+  &.lang-rust:after
+    content 'Rust'
+
+  &.lang-swift:after
+    content 'Swift'
+
+  &.lang-lua:after
+    content 'Lua'
+
+  &.lang-r:after
+    content 'R'
+
+  &.lang-c:after
+    content 'C'
+
+  &.lang-cpp:after
+    content 'C++'
+
+  &.lang-csharp:after
+  &.lang-cs:after
+    content 'C#'
+
+  &.lang-sql:after
+    content 'SQL'
+
+  &.lang-json:after
+    content 'JSON'
+
+  &.lang-markdown:after
+  &.lang-md:after
+    content 'Markdown'
+
+  &.lang-bash:after
+  &.lang-shell:after
+    content 'Shell'
+
+  &.lang-diff:after
+  &.lang-patch:after
+    content 'Diff'
+
+  .namespace
+    opacity .7
+
+  .token.comment
+  .token.prolog
+  .token.doctype
+  .token.cdata
+    color #b3b3b3
+
+  .token.constant
+  .token.function
+    color #0092db
+
+  .token.punctuation
+  .token.property
+  .token.tag
+  .token.boolean
+  .token.number
+  .token.symbol
+  .token.deleted
+  .token.selector
+  .token.attr-name
+  .token.char
+  .token.builtin
+  .token.inserted
+    color #2973b7
+
+  // .token.operator
+  .token.entity
+  .token.url
+  .language-css .token.string
+  .style .token.string
+    color #a6e22e
+
+  .token.keyword
+    color #e96900
+
+  .token.atrule
+  .token.attr-value
+  .token.string
+    color #42b983
+
+  .token.regex
+  .token.important
+  .token.variable
+    color #ae81ff
+
+  .token.important
+  .token.bold
+    font-weight bold
+  .token.italic
+    font-style italic
+
+  .token.entity
+    cursor help
+
+pre:hover > code:after
+  opacity 1
+
+@media screen and (max-width: 999px)
+  pre > code:after
+    opacity 1

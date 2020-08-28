@@ -1,0 +1,5 @@
+Lombok) 스프링에서 객체 생성 시 get, toString 등의 유용하지만 귀찮은 
+함수들을 자동적으로 생성해주므로 코딩 시간 줄이는데 매우 유용함.
+https://countryxide.tistory.com/16에 들어가서 따라하면 됨
+
+08.04 적용
